@@ -15,11 +15,11 @@ const UserInfo = () => {
              <FaceIcon/>
              <p>Profile</p>
             </div>
+            <hr/>
             <div className="moret__in">
                <NotificationsIcon/>
                <p>Notification Preferences</p> 
             </div>
-            <hr/>
             <hr/>
             <div className="moret__in">
             <LiveHelpIcon/>
