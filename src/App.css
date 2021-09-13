@@ -17,6 +17,7 @@ body{
   justify-content: space-between;
   align-items: center;
   margin: 25px 0;
+  flex-wrap: wrap;
 }
 .iconssection{
   display: flex;
@@ -68,7 +69,7 @@ color:grey;
   margin-bottom: 0;
   margin-top: 0;
   height: 0.1px;
-  background-color: lightgrey;
+  background-color: #c2c2c2;
   border: none;
 }
 .moret__in:hover{
@@ -80,6 +81,7 @@ color:grey;
 }
 
 /*************NAVBAR************/
+
 nav ul{
   display: flex;
   list-style: none;
@@ -89,13 +91,16 @@ nav ul{
 nav ul li{
   margin: 0 15px;
 }
+nav ul li:hover{
+  border-bottom: 2px solid #ADE1C5;
+}
 nav ul li a{
   color: #000;
   text-decoration: none;
   text-transform: uppercase;
   transition-timing-function: ease-in-out;
   transition-delay: 0.1s;
- font-size: 14px;
+ font-size: 12px;
 }
 nav ul li a:hover{
   color: #ADE1C5;
@@ -134,6 +139,30 @@ nav ul li a:hover{
 }
 .slide-cap2{
   text-transform: uppercase;
+}
+
+/*************************categories***************/
+
+.categories{
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: center;
+}
+.categories span{
+  padding: 10px 15px; /**ei 15px padding er jonno responsive e faka thake,padding komai dete hbe devicde onujai*/
+  font-size: 12px;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.1s;
+  cursor: pointer;
+}
+.categories span:hover{
+  background-color: #ececec;
+  border-radius: 3px;
+}
+.categories-hr{
+  height: 0.1px;
+  background-color: #c2c2c2;
 }
 
 
