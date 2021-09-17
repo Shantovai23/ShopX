@@ -5,7 +5,7 @@ import Categories from './components/Categories'
 import './App.css';
 function App() {
   return (
-    <div>
+    <div className='main'>
       <UpperNav/>
       <Navbar/>
       <Slider/>
