@@ -183,6 +183,7 @@ nav ul li a:hover{
 .product-name{
   font-weight: 500;
   margin: 0;
+  font-size: 14px;
 }
 .product-price{
   margin: 0;
@@ -198,8 +199,8 @@ background-color: #faf6f6;
 cursor: pointer;
 }
 .product-img{
-  width: 225px;
-  height: 225px;
+  width: 200px;
+  height: 200px;
 }
 
 hr{
